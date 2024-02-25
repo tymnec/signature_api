@@ -6,6 +6,10 @@ import base64
 app = Flask(__name__)
 CORS(app)
 
+@app.route("/", methods=["GET"])
+def test():
+    return "Hello World!"
+
 
 @app.route("/endpoint", methods=["POST"])
 def handle_post_request():
