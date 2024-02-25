@@ -1,0 +1,13 @@
+# Byte-compiled files
+__pycache__/
+
+# Environment folder
+env/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
